@@ -1,0 +1,1177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.0.1\\package-readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\tipocuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\tipocuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\obj\\API_PROYECTO_ONG.csproj.nuget.dgspec.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API_PROYECTO_ONG\\obj\\API_PROYECTO_ONG.csproj.nuget.dgspec.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\telefono.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\sede.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\sede.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\proyectoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\proyectoempleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\proyecto_ong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\proyecto_ong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\pais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\ong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\ong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\ods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\ods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\noticias_has_area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\noticias_has_area.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\donacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\donacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\voluntariocapacitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\voluntariocapacitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\voluntario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\voluntario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\tipotransaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\tipotransaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\tipogasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\tipogasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\tipodonante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\tipodonante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\noticias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\noticias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\metodopago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\gasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\gasto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\donante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\donante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\cuentabancaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\models\\capacitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\models\\capacitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\facturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\proyectoong_has_paiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\proyectoong_has_paiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\api_proyecto_ong.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\api_proyecto_ong.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\proyecto_ong_has_proyecto_empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\proyecto_ong_has_proyecto_empleadocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\eventoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\eventoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\capacitacionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\capacitacionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\tipogastoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\tipogastoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\tipodonantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\tipodonantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\sedescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\sedescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\proyecto_ong_has_proyecto_voluntariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\proyecto_ong_has_proyecto_voluntariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\presupuestoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\presupuestoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\paiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\paiscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\odscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\odscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\noticias_has_areacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\noticias_has_areacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\metodopagoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\metodopagoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\empleadoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\empleadoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\donacionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\donacionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\voluntarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\voluntarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\voluntariocapacitacionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\voluntariocapacitacionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\transaccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\transaccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\tipotransaccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\tipotransaccionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\proyectoong_has_odscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\proyectoong_has_odscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\ongscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\ongscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\tipocuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\tipocuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\proyecto_ongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\proyecto_ongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\donantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\donantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\telefonoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\telefonoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\rolusuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\rolusuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\rolscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\rolscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\proyectovoluntarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\proyectovoluntarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\proyectoempleadoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\proyectoempleadoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|c:\\users\\usuario\\onedrive\\desktop\\clases3pac\\basesdedatossegunda\\unidad_2\\avance2_proyecto\\frontend_proyecto_bdd1s\\api_proyecto_ong\\api_proyecto_ong\\controllers\\gastoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E6C7BFF-E219-0574-7644-53DF4528AE16}|API_PROYECTO_ONG\\API_PROYECTO_ONG.csproj|solutionrelative:api_proyecto_ong\\controllers\\gastoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\appsettings.json",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\appsettings.json",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\appsettings.json",
+              "RelativeToolTip": "API_PROYECTO_ONG\\appsettings.json",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-01T10:33:03.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\appsettings.Development.json",
+              "RelativeToolTip": "API_PROYECTO_ONG\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-28T20:20:53.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Program.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Program.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T15:18:57.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-28T20:19:12.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "package-readme.md",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.0.1\\package-readme.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.0.1\\package-readme.md",
+              "ToolTip": "C:\\Users\\USUARIO\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.0.1\\package-readme.md [Solo lectura]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.0.1\\package-readme.md [Solo lectura]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-28T21:12:13.241Z",
+              "EditorCaption": " [Solo lectura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Persona.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Persona.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Persona.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Persona.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T16:47:29.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Rol.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Rol.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:03:24.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Sede.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Sede.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Sede.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Sede.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Sede.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:14:33.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TipoCuenta.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\TipoCuenta.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\TipoCuenta.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\TipoCuenta.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\TipoCuenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T16:55:40.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProyectoEmpleado.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\ProyectoEmpleado.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\ProyectoEmpleado.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\ProyectoEmpleado.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\ProyectoEmpleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:20:30.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Proyecto_ONG.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Proyecto_ONG.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Proyecto_ONG.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Proyecto_ONG.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Proyecto_ONG.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:17:33.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Pais.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Pais.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Pais.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Pais.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Pais.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T16:58:24.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ONG.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\ONG.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\ONG.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\ONG.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\ONG.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T16:59:09.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Telefono.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Telefono.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Telefono.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Telefono.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Telefono.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T16:59:46.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ODS.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\ODS.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\ODS.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\ODS.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\ODS.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T16:57:42.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Noticias_has_area.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Noticias_has_area.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Noticias_has_area.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Noticias_has_area.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Noticias_has_area.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:16:19.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Donacion.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Donacion.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Donacion.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Donacion.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Donacion.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:26:15.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "VoluntarioCapacitacion.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\VoluntarioCapacitacion.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\VoluntarioCapacitacion.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\VoluntarioCapacitacion.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\VoluntarioCapacitacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:01:51.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Voluntario.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Voluntario.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Voluntario.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Voluntario.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Voluntario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:00:18.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Usuario.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:02:59.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Transaccion.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Transaccion.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Transaccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:30:47.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TipoTransaccion.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\TipoTransaccion.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\TipoTransaccion.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\TipoTransaccion.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\TipoTransaccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T16:56:41.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TipoGasto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\TipoGasto.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\TipoGasto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\TipoGasto.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\TipoGasto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T16:56:09.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TipoDonante.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\TipoDonante.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\TipoDonante.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\TipoDonante.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\TipoDonante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T16:53:43.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Noticias.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Noticias.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Noticias.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Noticias.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Noticias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:15:47.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MetodoPago.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\MetodoPago.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\MetodoPago.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\MetodoPago.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\MetodoPago.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:31:59.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Gasto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Gasto.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Gasto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Gasto.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Gasto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:30:16.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Factura.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Factura.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Factura.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Factura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:32:18.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Evento.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Evento.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Evento.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Evento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:32:37.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Empleado.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Empleado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:02:26.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Donante.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Donante.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Donante.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Donante.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Donante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:25:23.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CuentaBancaria.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\CuentaBancaria.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\CuentaBancaria.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\CuentaBancaria.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\CuentaBancaria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:25:55.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Contacto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Contacto.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Contacto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Contacto.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Contacto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:16:54.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Capacitacion.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Capacitacion.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Models\\Capacitacion.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Models\\Capacitacion.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Models\\Capacitacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:01:15.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "API_PROYECTO_ONG.csproj.nuget.dgspec.json",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\obj\\API_PROYECTO_ONG.csproj.nuget.dgspec.json",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\obj\\API_PROYECTO_ONG.csproj.nuget.dgspec.json",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\obj\\API_PROYECTO_ONG.csproj.nuget.dgspec.json",
+              "RelativeToolTip": "API_PROYECTO_ONG\\obj\\API_PROYECTO_ONG.csproj.nuget.dgspec.json",
+              "ViewState": "AgIAAPEBAAAAAAAAAGBnwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-28T20:21:14.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\WeatherForecast.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T17:04:43.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FacturasController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\FacturasController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\FacturasController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\FacturasController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\FacturasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:40:59.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T15:34:35.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProyectoONG_has_PaisController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\ProyectoONG_has_PaisController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\ProyectoONG_has_PaisController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\ProyectoONG_has_PaisController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\ProyectoONG_has_PaisController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:58:46.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "API_PROYECTO_ONG.http",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\API_PROYECTO_ONG.http",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\API_PROYECTO_ONG.http",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\API_PROYECTO_ONG.http",
+              "RelativeToolTip": "API_PROYECTO_ONG\\API_PROYECTO_ONG.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-28T17:05:26.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Proyecto_ONG_has_proyecto_empleadoController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\Proyecto_ONG_has_proyecto_empleadoController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\Proyecto_ONG_has_proyecto_empleadoController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\Proyecto_ONG_has_proyecto_empleadoController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\Proyecto_ONG_has_proyecto_empleadoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:52:02.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EventoesController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\EventoesController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\EventoesController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\EventoesController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\EventoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:28:46.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CapacitacionsController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\CapacitacionsController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\CapacitacionsController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\CapacitacionsController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\CapacitacionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:30:52.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:04:33.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:10:22.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "TipoGastoesController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\TipoGastoesController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\TipoGastoesController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\TipoGastoesController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\TipoGastoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:07:20.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "TipoDonantesController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\TipoDonantesController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\TipoDonantesController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\TipoDonantesController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\TipoDonantesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:06:07.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SedesController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\SedesController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\SedesController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\SedesController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\SedesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:03:07.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Proyecto_ONG_has_proyecto_voluntarioController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\Proyecto_ONG_has_proyecto_voluntarioController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\Proyecto_ONG_has_proyecto_voluntarioController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\Proyecto_ONG_has_proyecto_voluntarioController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\Proyecto_ONG_has_proyecto_voluntarioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:53:19.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "PresupuestoesController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\PresupuestoesController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\PresupuestoesController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\PresupuestoesController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\PresupuestoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:49:56.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PaisController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\PaisController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\PaisController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\PaisController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\PaisController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:47:42.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ODSController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\ODSController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\ODSController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\ODSController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\ODSController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:45:51.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "NoticiasController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\NoticiasController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\NoticiasController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\NoticiasController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\NoticiasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:43:30.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Noticias_has_areaController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\Noticias_has_areaController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\Noticias_has_areaController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\Noticias_has_areaController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\Noticias_has_areaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:44:50.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "MetodoPagoesController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\MetodoPagoesController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\MetodoPagoesController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\MetodoPagoesController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\MetodoPagoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:42:44.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "EmpleadoesController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\EmpleadoesController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\EmpleadoesController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\EmpleadoesController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\EmpleadoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:37:22.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "DonacionsController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\DonacionsController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\DonacionsController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\DonacionsController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\DonacionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:33:39.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "VoluntariosController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\VoluntariosController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\VoluntariosController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\VoluntariosController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\VoluntariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:11:17.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "VoluntarioCapacitacionsController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\VoluntarioCapacitacionsController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\VoluntarioCapacitacionsController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\VoluntarioCapacitacionsController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\VoluntarioCapacitacionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:12:16.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "TransaccionsController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\TransaccionsController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\TransaccionsController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\TransaccionsController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\TransaccionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:09:23.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "TipoTransaccionsController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\TipoTransaccionsController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\TipoTransaccionsController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\TipoTransaccionsController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\TipoTransaccionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:08:07.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ProyectoONG_has_ODSController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\ProyectoONG_has_ODSController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\ProyectoONG_has_ODSController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\ProyectoONG_has_ODSController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\ProyectoONG_has_ODSController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:57:46.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ONGsController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\ONGsController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\ONGsController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\ONGsController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\ONGsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:46:41.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "TipoCuentasController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\TipoCuentasController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\TipoCuentasController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\TipoCuentasController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\TipoCuentasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:05:13.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Proyecto_ONGController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\Proyecto_ONGController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\Proyecto_ONGController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\Proyecto_ONGController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\Proyecto_ONGController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:51:10.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "DonantesController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\DonantesController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\DonantesController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\DonantesController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\DonantesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:35:27.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "TelefonoesController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\TelefonoesController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\TelefonoesController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\TelefonoesController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\TelefonoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:04:00.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "RolUsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\RolUsuariosController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\RolUsuariosController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\RolUsuariosController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\RolUsuariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:02:02.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "RolsController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\RolsController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\RolsController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\RolsController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\RolsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:01:20.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ProyectoVoluntariosController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\ProyectoVoluntariosController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\ProyectoVoluntariosController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\ProyectoVoluntariosController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\ProyectoVoluntariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T14:00:15.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ProyectoEmpleadoesController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\ProyectoEmpleadoesController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\ProyectoEmpleadoesController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\ProyectoEmpleadoesController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\ProyectoEmpleadoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:54:52.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "GastoesController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\GastoesController.cs",
+              "RelativeDocumentMoniker": "API_PROYECTO_ONG\\Controllers\\GastoesController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\API_PROYECTO_ONG\\API_PROYECTO_ONG\\Controllers\\GastoesController.cs",
+              "RelativeToolTip": "API_PROYECTO_ONG\\Controllers\\GastoesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T13:41:57.301Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4165 @@
+[
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ActividadesController",
+    "Method": "GetActividades",
+    "RelativePath": "api/Actividades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Actividades, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ActividadesController",
+    "Method": "PostActividades",
+    "RelativePath": "api/Actividades",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "actividades",
+        "Type": "API_PROYECTO_ONG.Models.Actividades",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Actividades",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ActividadesController",
+    "Method": "GetActividades",
+    "RelativePath": "api/Actividades/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Actividades",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ActividadesController",
+    "Method": "PutActividades",
+    "RelativePath": "api/Actividades/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "actividades",
+        "Type": "API_PROYECTO_ONG.Models.Actividades",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ActividadesController",
+    "Method": "DeleteActividades",
+    "RelativePath": "api/Actividades/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.AreasController",
+    "Method": "GetAreas",
+    "RelativePath": "api/Areas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Area, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.AreasController",
+    "Method": "PostArea",
+    "RelativePath": "api/Areas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "area",
+        "Type": "API_PROYECTO_ONG.Models.Area",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Area",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.AreasController",
+    "Method": "GetArea",
+    "RelativePath": "api/Areas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Area",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.AreasController",
+    "Method": "PutArea",
+    "RelativePath": "api/Areas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "area",
+        "Type": "API_PROYECTO_ONG.Models.Area",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.AreasController",
+    "Method": "DeleteArea",
+    "RelativePath": "api/Areas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.CapacitacionsController",
+    "Method": "GetCapacitaciones",
+    "RelativePath": "api/Capacitacions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Capacitacion, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.CapacitacionsController",
+    "Method": "PostCapacitacion",
+    "RelativePath": "api/Capacitacions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "capacitacion",
+        "Type": "API_PROYECTO_ONG.Models.Capacitacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Capacitacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.CapacitacionsController",
+    "Method": "GetCapacitacion",
+    "RelativePath": "api/Capacitacions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Capacitacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.CapacitacionsController",
+    "Method": "PutCapacitacion",
+    "RelativePath": "api/Capacitacions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "capacitacion",
+        "Type": "API_PROYECTO_ONG.Models.Capacitacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.CapacitacionsController",
+    "Method": "DeleteCapacitacion",
+    "RelativePath": "api/Capacitacions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ContactoesController",
+    "Method": "GetContactos",
+    "RelativePath": "api/Contactoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Contacto, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ContactoesController",
+    "Method": "PostContacto",
+    "RelativePath": "api/Contactoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "contacto",
+        "Type": "API_PROYECTO_ONG.Models.Contacto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Contacto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ContactoesController",
+    "Method": "GetContacto",
+    "RelativePath": "api/Contactoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Contacto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ContactoesController",
+    "Method": "PutContacto",
+    "RelativePath": "api/Contactoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "contacto",
+        "Type": "API_PROYECTO_ONG.Models.Contacto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ContactoesController",
+    "Method": "DeleteContacto",
+    "RelativePath": "api/Contactoes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.CuentaBancariasController",
+    "Method": "GetCuentasBancarias",
+    "RelativePath": "api/CuentaBancarias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.CuentaBancaria, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.CuentaBancariasController",
+    "Method": "PostCuentaBancaria",
+    "RelativePath": "api/CuentaBancarias",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cuentaBancaria",
+        "Type": "API_PROYECTO_ONG.Models.CuentaBancaria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.CuentaBancaria",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.CuentaBancariasController",
+    "Method": "GetCuentaBancaria",
+    "RelativePath": "api/CuentaBancarias/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.CuentaBancaria",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.CuentaBancariasController",
+    "Method": "PutCuentaBancaria",
+    "RelativePath": "api/CuentaBancarias/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cuentaBancaria",
+        "Type": "API_PROYECTO_ONG.Models.CuentaBancaria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.CuentaBancariasController",
+    "Method": "DeleteCuentaBancaria",
+    "RelativePath": "api/CuentaBancarias/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.DonacionsController",
+    "Method": "GetDonaciones",
+    "RelativePath": "api/Donacions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Donacion, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.DonacionsController",
+    "Method": "PostDonacion",
+    "RelativePath": "api/Donacions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "donacion",
+        "Type": "API_PROYECTO_ONG.Models.Donacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Donacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.DonacionsController",
+    "Method": "GetDonacion",
+    "RelativePath": "api/Donacions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Donacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.DonacionsController",
+    "Method": "PutDonacion",
+    "RelativePath": "api/Donacions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "donacion",
+        "Type": "API_PROYECTO_ONG.Models.Donacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.DonacionsController",
+    "Method": "DeleteDonacion",
+    "RelativePath": "api/Donacions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.DonantesController",
+    "Method": "GetDonantes",
+    "RelativePath": "api/Donantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Donante, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.DonantesController",
+    "Method": "PostDonante",
+    "RelativePath": "api/Donantes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "donante",
+        "Type": "API_PROYECTO_ONG.Models.Donante",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Donante",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.DonantesController",
+    "Method": "GetDonante",
+    "RelativePath": "api/Donantes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Donante",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.DonantesController",
+    "Method": "PutDonante",
+    "RelativePath": "api/Donantes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "donante",
+        "Type": "API_PROYECTO_ONG.Models.Donante",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.DonantesController",
+    "Method": "DeleteDonante",
+    "RelativePath": "api/Donantes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.EmpleadoesController",
+    "Method": "GetEmpleados",
+    "RelativePath": "api/Empleadoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Empleado, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.EmpleadoesController",
+    "Method": "PostEmpleado",
+    "RelativePath": "api/Empleadoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empleado",
+        "Type": "API_PROYECTO_ONG.Models.Empleado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Empleado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.EmpleadoesController",
+    "Method": "GetEmpleado",
+    "RelativePath": "api/Empleadoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Empleado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.EmpleadoesController",
+    "Method": "PutEmpleado",
+    "RelativePath": "api/Empleadoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "empleado",
+        "Type": "API_PROYECTO_ONG.Models.Empleado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.EmpleadoesController",
+    "Method": "DeleteEmpleado",
+    "RelativePath": "api/Empleadoes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.EventoesController",
+    "Method": "GetEventos",
+    "RelativePath": "api/Eventoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Evento, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.EventoesController",
+    "Method": "PostEvento",
+    "RelativePath": "api/Eventoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "evento",
+        "Type": "API_PROYECTO_ONG.Models.Evento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Evento",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.EventoesController",
+    "Method": "GetEvento",
+    "RelativePath": "api/Eventoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Evento",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.EventoesController",
+    "Method": "PutEvento",
+    "RelativePath": "api/Eventoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "evento",
+        "Type": "API_PROYECTO_ONG.Models.Evento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.EventoesController",
+    "Method": "DeleteEvento",
+    "RelativePath": "api/Eventoes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.FacturasController",
+    "Method": "GetFacturas",
+    "RelativePath": "api/Facturas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Factura, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.FacturasController",
+    "Method": "PostFactura",
+    "RelativePath": "api/Facturas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "factura",
+        "Type": "API_PROYECTO_ONG.Models.Factura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Factura",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.FacturasController",
+    "Method": "GetFactura",
+    "RelativePath": "api/Facturas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Factura",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.FacturasController",
+    "Method": "PutFactura",
+    "RelativePath": "api/Facturas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "factura",
+        "Type": "API_PROYECTO_ONG.Models.Factura",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.FacturasController",
+    "Method": "DeleteFactura",
+    "RelativePath": "api/Facturas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.GastoesController",
+    "Method": "GetGastos",
+    "RelativePath": "api/Gastoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Gasto, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.GastoesController",
+    "Method": "PostGasto",
+    "RelativePath": "api/Gastoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gasto",
+        "Type": "API_PROYECTO_ONG.Models.Gasto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Gasto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.GastoesController",
+    "Method": "GetGasto",
+    "RelativePath": "api/Gastoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Gasto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.GastoesController",
+    "Method": "PutGasto",
+    "RelativePath": "api/Gastoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "gasto",
+        "Type": "API_PROYECTO_ONG.Models.Gasto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.GastoesController",
+    "Method": "DeleteGasto",
+    "RelativePath": "api/Gastoes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.MetodoPagoesController",
+    "Method": "GetMetodosPago",
+    "RelativePath": "api/MetodoPagoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.MetodoPago, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.MetodoPagoesController",
+    "Method": "PostMetodoPago",
+    "RelativePath": "api/MetodoPagoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "metodoPago",
+        "Type": "API_PROYECTO_ONG.Models.MetodoPago",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.MetodoPago",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.MetodoPagoesController",
+    "Method": "GetMetodoPago",
+    "RelativePath": "api/MetodoPagoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.MetodoPago",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.MetodoPagoesController",
+    "Method": "PutMetodoPago",
+    "RelativePath": "api/MetodoPagoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "metodoPago",
+        "Type": "API_PROYECTO_ONG.Models.MetodoPago",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.MetodoPagoesController",
+    "Method": "DeleteMetodoPago",
+    "RelativePath": "api/MetodoPagoes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.NoticiasController",
+    "Method": "GetNoticias",
+    "RelativePath": "api/Noticias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Noticias, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.NoticiasController",
+    "Method": "PostNoticias",
+    "RelativePath": "api/Noticias",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noticias",
+        "Type": "API_PROYECTO_ONG.Models.Noticias",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Noticias",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Noticias_has_areaController",
+    "Method": "GetNoticiasAreas",
+    "RelativePath": "api/Noticias_has_area",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Noticias_has_area, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Noticias_has_areaController",
+    "Method": "PostNoticias_has_area",
+    "RelativePath": "api/Noticias_has_area",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noticias_has_area",
+        "Type": "API_PROYECTO_ONG.Models.Noticias_has_area",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Noticias_has_area",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Noticias_has_areaController",
+    "Method": "GetNoticias_has_area",
+    "RelativePath": "api/Noticias_has_area/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Noticias_has_area",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Noticias_has_areaController",
+    "Method": "PutNoticias_has_area",
+    "RelativePath": "api/Noticias_has_area/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "noticias_has_area",
+        "Type": "API_PROYECTO_ONG.Models.Noticias_has_area",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Noticias_has_areaController",
+    "Method": "DeleteNoticias_has_area",
+    "RelativePath": "api/Noticias_has_area/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.NoticiasController",
+    "Method": "GetNoticias",
+    "RelativePath": "api/Noticias/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Noticias",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.NoticiasController",
+    "Method": "PutNoticias",
+    "RelativePath": "api/Noticias/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "noticias",
+        "Type": "API_PROYECTO_ONG.Models.Noticias",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.NoticiasController",
+    "Method": "DeleteNoticias",
+    "RelativePath": "api/Noticias/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ODSController",
+    "Method": "GetODS",
+    "RelativePath": "api/ODS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.ODS, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ODSController",
+    "Method": "PostODS",
+    "RelativePath": "api/ODS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oDS",
+        "Type": "API_PROYECTO_ONG.Models.ODS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.ODS",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ODSController",
+    "Method": "GetODS",
+    "RelativePath": "api/ODS/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.ODS",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ODSController",
+    "Method": "PutODS",
+    "RelativePath": "api/ODS/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "oDS",
+        "Type": "API_PROYECTO_ONG.Models.ODS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ODSController",
+    "Method": "DeleteODS",
+    "RelativePath": "api/ODS/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ONGsController",
+    "Method": "GetONGs",
+    "RelativePath": "api/ONGs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.ONG, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ONGsController",
+    "Method": "PostONG",
+    "RelativePath": "api/ONGs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oNG",
+        "Type": "API_PROYECTO_ONG.Models.ONG",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.ONG",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ONGsController",
+    "Method": "GetONG",
+    "RelativePath": "api/ONGs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.ONG",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ONGsController",
+    "Method": "PutONG",
+    "RelativePath": "api/ONGs/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "oNG",
+        "Type": "API_PROYECTO_ONG.Models.ONG",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ONGsController",
+    "Method": "DeleteONG",
+    "RelativePath": "api/ONGs/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PaisController",
+    "Method": "GetPaises",
+    "RelativePath": "api/Pais",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Pais, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PaisController",
+    "Method": "PostPais",
+    "RelativePath": "api/Pais",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pais",
+        "Type": "API_PROYECTO_ONG.Models.Pais",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Pais",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PaisController",
+    "Method": "GetPais",
+    "RelativePath": "api/Pais/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Pais",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PaisController",
+    "Method": "PutPais",
+    "RelativePath": "api/Pais/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pais",
+        "Type": "API_PROYECTO_ONG.Models.Pais",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PaisController",
+    "Method": "DeletePais",
+    "RelativePath": "api/Pais/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PersonasController",
+    "Method": "GetPersonas",
+    "RelativePath": "api/Personas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Persona, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PersonasController",
+    "Method": "PostPersona",
+    "RelativePath": "api/Personas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "persona",
+        "Type": "API_PROYECTO_ONG.Models.Persona",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Persona",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PersonasController",
+    "Method": "GetPersona",
+    "RelativePath": "api/Personas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Persona",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PersonasController",
+    "Method": "PutPersona",
+    "RelativePath": "api/Personas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "persona",
+        "Type": "API_PROYECTO_ONG.Models.Persona",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PersonasController",
+    "Method": "DeletePersona",
+    "RelativePath": "api/Personas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PresupuestoesController",
+    "Method": "GetPresupuestos",
+    "RelativePath": "api/Presupuestoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Presupuesto, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PresupuestoesController",
+    "Method": "PostPresupuesto",
+    "RelativePath": "api/Presupuestoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "presupuesto",
+        "Type": "API_PROYECTO_ONG.Models.Presupuesto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Presupuesto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PresupuestoesController",
+    "Method": "GetPresupuesto",
+    "RelativePath": "api/Presupuestoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Presupuesto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PresupuestoesController",
+    "Method": "PutPresupuesto",
+    "RelativePath": "api/Presupuestoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "presupuesto",
+        "Type": "API_PROYECTO_ONG.Models.Presupuesto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.PresupuestoesController",
+    "Method": "DeletePresupuesto",
+    "RelativePath": "api/Presupuestoes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONGController",
+    "Method": "GetProyectosONG",
+    "RelativePath": "api/Proyecto_ONG",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Proyecto_ONG, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONGController",
+    "Method": "PostProyecto_ONG",
+    "RelativePath": "api/Proyecto_ONG",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proyecto_ONG",
+        "Type": "API_PROYECTO_ONG.Models.Proyecto_ONG",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Proyecto_ONG",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONG_has_proyecto_empleadoController",
+    "Method": "GetProyectoONGEmpleados",
+    "RelativePath": "api/Proyecto_ONG_has_proyecto_empleado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Proyecto_ONG_has_proyecto_empleado, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONG_has_proyecto_empleadoController",
+    "Method": "PostProyecto_ONG_has_proyecto_empleado",
+    "RelativePath": "api/Proyecto_ONG_has_proyecto_empleado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proyecto_ONG_has_proyecto_empleado",
+        "Type": "API_PROYECTO_ONG.Models.Proyecto_ONG_has_proyecto_empleado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Proyecto_ONG_has_proyecto_empleado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONG_has_proyecto_empleadoController",
+    "Method": "GetProyecto_ONG_has_proyecto_empleado",
+    "RelativePath": "api/Proyecto_ONG_has_proyecto_empleado/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Proyecto_ONG_has_proyecto_empleado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONG_has_proyecto_empleadoController",
+    "Method": "PutProyecto_ONG_has_proyecto_empleado",
+    "RelativePath": "api/Proyecto_ONG_has_proyecto_empleado/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "proyecto_ONG_has_proyecto_empleado",
+        "Type": "API_PROYECTO_ONG.Models.Proyecto_ONG_has_proyecto_empleado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONG_has_proyecto_empleadoController",
+    "Method": "DeleteProyecto_ONG_has_proyecto_empleado",
+    "RelativePath": "api/Proyecto_ONG_has_proyecto_empleado/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONG_has_proyecto_voluntarioController",
+    "Method": "GetProyectoONGVoluntarios",
+    "RelativePath": "api/Proyecto_ONG_has_proyecto_voluntario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Proyecto_ONG_has_proyecto_voluntario, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONG_has_proyecto_voluntarioController",
+    "Method": "PostProyecto_ONG_has_proyecto_voluntario",
+    "RelativePath": "api/Proyecto_ONG_has_proyecto_voluntario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proyecto_ONG_has_proyecto_voluntario",
+        "Type": "API_PROYECTO_ONG.Models.Proyecto_ONG_has_proyecto_voluntario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Proyecto_ONG_has_proyecto_voluntario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONG_has_proyecto_voluntarioController",
+    "Method": "GetProyecto_ONG_has_proyecto_voluntario",
+    "RelativePath": "api/Proyecto_ONG_has_proyecto_voluntario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Proyecto_ONG_has_proyecto_voluntario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONG_has_proyecto_voluntarioController",
+    "Method": "PutProyecto_ONG_has_proyecto_voluntario",
+    "RelativePath": "api/Proyecto_ONG_has_proyecto_voluntario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "proyecto_ONG_has_proyecto_voluntario",
+        "Type": "API_PROYECTO_ONG.Models.Proyecto_ONG_has_proyecto_voluntario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONG_has_proyecto_voluntarioController",
+    "Method": "DeleteProyecto_ONG_has_proyecto_voluntario",
+    "RelativePath": "api/Proyecto_ONG_has_proyecto_voluntario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONGController",
+    "Method": "GetProyecto_ONG",
+    "RelativePath": "api/Proyecto_ONG/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Proyecto_ONG",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONGController",
+    "Method": "PutProyecto_ONG",
+    "RelativePath": "api/Proyecto_ONG/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "proyecto_ONG",
+        "Type": "API_PROYECTO_ONG.Models.Proyecto_ONG",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.Proyecto_ONGController",
+    "Method": "DeleteProyecto_ONG",
+    "RelativePath": "api/Proyecto_ONG/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoEmpleadoesController",
+    "Method": "GetProyectoEmpleados",
+    "RelativePath": "api/ProyectoEmpleadoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.ProyectoEmpleado, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoEmpleadoesController",
+    "Method": "PostProyectoEmpleado",
+    "RelativePath": "api/ProyectoEmpleadoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proyectoEmpleado",
+        "Type": "API_PROYECTO_ONG.Models.ProyectoEmpleado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.ProyectoEmpleado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoEmpleadoesController",
+    "Method": "GetProyectoEmpleado",
+    "RelativePath": "api/ProyectoEmpleadoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.ProyectoEmpleado",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoEmpleadoesController",
+    "Method": "PutProyectoEmpleado",
+    "RelativePath": "api/ProyectoEmpleadoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "proyectoEmpleado",
+        "Type": "API_PROYECTO_ONG.Models.ProyectoEmpleado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoEmpleadoesController",
+    "Method": "DeleteProyectoEmpleado",
+    "RelativePath": "api/ProyectoEmpleadoes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoONG_has_ODSController",
+    "Method": "GetProyectoODS",
+    "RelativePath": "api/ProyectoONG_has_ODS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.ProyectoONG_has_ODS, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoONG_has_ODSController",
+    "Method": "PostProyectoONG_has_ODS",
+    "RelativePath": "api/ProyectoONG_has_ODS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proyectoONG_has_ODS",
+        "Type": "API_PROYECTO_ONG.Models.ProyectoONG_has_ODS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.ProyectoONG_has_ODS",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoONG_has_ODSController",
+    "Method": "GetProyectoONG_has_ODS",
+    "RelativePath": "api/ProyectoONG_has_ODS/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.ProyectoONG_has_ODS",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoONG_has_ODSController",
+    "Method": "PutProyectoONG_has_ODS",
+    "RelativePath": "api/ProyectoONG_has_ODS/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "proyectoONG_has_ODS",
+        "Type": "API_PROYECTO_ONG.Models.ProyectoONG_has_ODS",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoONG_has_ODSController",
+    "Method": "DeleteProyectoONG_has_ODS",
+    "RelativePath": "api/ProyectoONG_has_ODS/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoONG_has_PaisController",
+    "Method": "GetProyectoPaises",
+    "RelativePath": "api/ProyectoONG_has_Pais",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.ProyectoONG_has_Pais, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoONG_has_PaisController",
+    "Method": "PostProyectoONG_has_Pais",
+    "RelativePath": "api/ProyectoONG_has_Pais",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proyectoONG_has_Pais",
+        "Type": "API_PROYECTO_ONG.Models.ProyectoONG_has_Pais",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.ProyectoONG_has_Pais",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoONG_has_PaisController",
+    "Method": "GetProyectoONG_has_Pais",
+    "RelativePath": "api/ProyectoONG_has_Pais/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.ProyectoONG_has_Pais",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoONG_has_PaisController",
+    "Method": "PutProyectoONG_has_Pais",
+    "RelativePath": "api/ProyectoONG_has_Pais/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "proyectoONG_has_Pais",
+        "Type": "API_PROYECTO_ONG.Models.ProyectoONG_has_Pais",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoONG_has_PaisController",
+    "Method": "DeleteProyectoONG_has_Pais",
+    "RelativePath": "api/ProyectoONG_has_Pais/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoVoluntariosController",
+    "Method": "GetProyectoVoluntarios",
+    "RelativePath": "api/ProyectoVoluntarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.ProyectoVoluntario, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoVoluntariosController",
+    "Method": "PostProyectoVoluntario",
+    "RelativePath": "api/ProyectoVoluntarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "proyectoVoluntario",
+        "Type": "API_PROYECTO_ONG.Models.ProyectoVoluntario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.ProyectoVoluntario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoVoluntariosController",
+    "Method": "GetProyectoVoluntario",
+    "RelativePath": "api/ProyectoVoluntarios/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.ProyectoVoluntario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoVoluntariosController",
+    "Method": "PutProyectoVoluntario",
+    "RelativePath": "api/ProyectoVoluntarios/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "proyectoVoluntario",
+        "Type": "API_PROYECTO_ONG.Models.ProyectoVoluntario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.ProyectoVoluntariosController",
+    "Method": "DeleteProyectoVoluntario",
+    "RelativePath": "api/ProyectoVoluntarios/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.RolsController",
+    "Method": "GetRoles",
+    "RelativePath": "api/Rols",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Rol, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.RolsController",
+    "Method": "PostRol",
+    "RelativePath": "api/Rols",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rol",
+        "Type": "API_PROYECTO_ONG.Models.Rol",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Rol",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.RolsController",
+    "Method": "GetRol",
+    "RelativePath": "api/Rols/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Rol",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.RolsController",
+    "Method": "PutRol",
+    "RelativePath": "api/Rols/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rol",
+        "Type": "API_PROYECTO_ONG.Models.Rol",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.RolsController",
+    "Method": "DeleteRol",
+    "RelativePath": "api/Rols/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.RolUsuariosController",
+    "Method": "GetRolUsuarios",
+    "RelativePath": "api/RolUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.RolUsuario, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.RolUsuariosController",
+    "Method": "PostRolUsuario",
+    "RelativePath": "api/RolUsuarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rolUsuario",
+        "Type": "API_PROYECTO_ONG.Models.RolUsuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.RolUsuario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.RolUsuariosController",
+    "Method": "GetRolUsuario",
+    "RelativePath": "api/RolUsuarios/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.RolUsuario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.RolUsuariosController",
+    "Method": "PutRolUsuario",
+    "RelativePath": "api/RolUsuarios/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rolUsuario",
+        "Type": "API_PROYECTO_ONG.Models.RolUsuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.RolUsuariosController",
+    "Method": "DeleteRolUsuario",
+    "RelativePath": "api/RolUsuarios/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.SedesController",
+    "Method": "GetSedes",
+    "RelativePath": "api/Sedes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Sede, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.SedesController",
+    "Method": "PostSede",
+    "RelativePath": "api/Sedes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sede",
+        "Type": "API_PROYECTO_ONG.Models.Sede",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Sede",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.SedesController",
+    "Method": "GetSede",
+    "RelativePath": "api/Sedes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Sede",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.SedesController",
+    "Method": "PutSede",
+    "RelativePath": "api/Sedes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sede",
+        "Type": "API_PROYECTO_ONG.Models.Sede",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.SedesController",
+    "Method": "DeleteSede",
+    "RelativePath": "api/Sedes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TelefonoesController",
+    "Method": "GetTelefonos",
+    "RelativePath": "api/Telefonoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Telefono, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TelefonoesController",
+    "Method": "PostTelefono",
+    "RelativePath": "api/Telefonoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "telefono",
+        "Type": "API_PROYECTO_ONG.Models.Telefono",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Telefono",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TelefonoesController",
+    "Method": "GetTelefono",
+    "RelativePath": "api/Telefonoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Telefono",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TelefonoesController",
+    "Method": "PutTelefono",
+    "RelativePath": "api/Telefonoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "telefono",
+        "Type": "API_PROYECTO_ONG.Models.Telefono",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TelefonoesController",
+    "Method": "DeleteTelefono",
+    "RelativePath": "api/Telefonoes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoCuentasController",
+    "Method": "GetTiposCuenta",
+    "RelativePath": "api/TipoCuentas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.TipoCuenta, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoCuentasController",
+    "Method": "PostTipoCuenta",
+    "RelativePath": "api/TipoCuentas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoCuenta",
+        "Type": "API_PROYECTO_ONG.Models.TipoCuenta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.TipoCuenta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoCuentasController",
+    "Method": "GetTipoCuenta",
+    "RelativePath": "api/TipoCuentas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.TipoCuenta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoCuentasController",
+    "Method": "PutTipoCuenta",
+    "RelativePath": "api/TipoCuentas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipoCuenta",
+        "Type": "API_PROYECTO_ONG.Models.TipoCuenta",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoCuentasController",
+    "Method": "DeleteTipoCuenta",
+    "RelativePath": "api/TipoCuentas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoDonantesController",
+    "Method": "GetTiposDonante",
+    "RelativePath": "api/TipoDonantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.TipoDonante, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoDonantesController",
+    "Method": "PostTipoDonante",
+    "RelativePath": "api/TipoDonantes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoDonante",
+        "Type": "API_PROYECTO_ONG.Models.TipoDonante",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.TipoDonante",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoDonantesController",
+    "Method": "GetTipoDonante",
+    "RelativePath": "api/TipoDonantes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.TipoDonante",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoDonantesController",
+    "Method": "PutTipoDonante",
+    "RelativePath": "api/TipoDonantes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipoDonante",
+        "Type": "API_PROYECTO_ONG.Models.TipoDonante",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoDonantesController",
+    "Method": "DeleteTipoDonante",
+    "RelativePath": "api/TipoDonantes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoGastoesController",
+    "Method": "GetTiposGasto",
+    "RelativePath": "api/TipoGastoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.TipoGasto, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoGastoesController",
+    "Method": "PostTipoGasto",
+    "RelativePath": "api/TipoGastoes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoGasto",
+        "Type": "API_PROYECTO_ONG.Models.TipoGasto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.TipoGasto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoGastoesController",
+    "Method": "GetTipoGasto",
+    "RelativePath": "api/TipoGastoes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.TipoGasto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoGastoesController",
+    "Method": "PutTipoGasto",
+    "RelativePath": "api/TipoGastoes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipoGasto",
+        "Type": "API_PROYECTO_ONG.Models.TipoGasto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoGastoesController",
+    "Method": "DeleteTipoGasto",
+    "RelativePath": "api/TipoGastoes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoTransaccionsController",
+    "Method": "GetTiposTransaccion",
+    "RelativePath": "api/TipoTransaccions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.TipoTransaccion, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoTransaccionsController",
+    "Method": "PostTipoTransaccion",
+    "RelativePath": "api/TipoTransaccions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoTransaccion",
+        "Type": "API_PROYECTO_ONG.Models.TipoTransaccion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.TipoTransaccion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoTransaccionsController",
+    "Method": "GetTipoTransaccion",
+    "RelativePath": "api/TipoTransaccions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.TipoTransaccion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoTransaccionsController",
+    "Method": "PutTipoTransaccion",
+    "RelativePath": "api/TipoTransaccions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipoTransaccion",
+        "Type": "API_PROYECTO_ONG.Models.TipoTransaccion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TipoTransaccionsController",
+    "Method": "DeleteTipoTransaccion",
+    "RelativePath": "api/TipoTransaccions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TransaccionsController",
+    "Method": "GetTransacciones",
+    "RelativePath": "api/Transaccions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Transaccion, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TransaccionsController",
+    "Method": "PostTransaccion",
+    "RelativePath": "api/Transaccions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transaccion",
+        "Type": "API_PROYECTO_ONG.Models.Transaccion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Transaccion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TransaccionsController",
+    "Method": "GetTransaccion",
+    "RelativePath": "api/Transaccions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Transaccion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TransaccionsController",
+    "Method": "PutTransaccion",
+    "RelativePath": "api/Transaccions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "transaccion",
+        "Type": "API_PROYECTO_ONG.Models.Transaccion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.TransaccionsController",
+    "Method": "DeleteTransaccion",
+    "RelativePath": "api/Transaccions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.UsuariosController",
+    "Method": "GetUsuarios",
+    "RelativePath": "api/Usuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Usuario, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.UsuariosController",
+    "Method": "PostUsuario",
+    "RelativePath": "api/Usuarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "API_PROYECTO_ONG.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Usuario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.UsuariosController",
+    "Method": "GetUsuario",
+    "RelativePath": "api/Usuarios/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Usuario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.UsuariosController",
+    "Method": "PutUsuario",
+    "RelativePath": "api/Usuarios/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuario",
+        "Type": "API_PROYECTO_ONG.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.UsuariosController",
+    "Method": "DeleteUsuario",
+    "RelativePath": "api/Usuarios/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.VoluntarioCapacitacionsController",
+    "Method": "GetVoluntarioCapacitaciones",
+    "RelativePath": "api/VoluntarioCapacitacions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.VoluntarioCapacitacion, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.VoluntarioCapacitacionsController",
+    "Method": "PostVoluntarioCapacitacion",
+    "RelativePath": "api/VoluntarioCapacitacions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "voluntarioCapacitacion",
+        "Type": "API_PROYECTO_ONG.Models.VoluntarioCapacitacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.VoluntarioCapacitacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.VoluntarioCapacitacionsController",
+    "Method": "GetVoluntarioCapacitacion",
+    "RelativePath": "api/VoluntarioCapacitacions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.VoluntarioCapacitacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.VoluntarioCapacitacionsController",
+    "Method": "PutVoluntarioCapacitacion",
+    "RelativePath": "api/VoluntarioCapacitacions/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "voluntarioCapacitacion",
+        "Type": "API_PROYECTO_ONG.Models.VoluntarioCapacitacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.VoluntarioCapacitacionsController",
+    "Method": "DeleteVoluntarioCapacitacion",
+    "RelativePath": "api/VoluntarioCapacitacions/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.VoluntariosController",
+    "Method": "GetVoluntarios",
+    "RelativePath": "api/Voluntarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.Models.Voluntario, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.VoluntariosController",
+    "Method": "PostVoluntario",
+    "RelativePath": "api/Voluntarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "voluntario",
+        "Type": "API_PROYECTO_ONG.Models.Voluntario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Voluntario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.VoluntariosController",
+    "Method": "GetVoluntario",
+    "RelativePath": "api/Voluntarios/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "API_PROYECTO_ONG.Models.Voluntario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.VoluntariosController",
+    "Method": "PutVoluntario",
+    "RelativePath": "api/Voluntarios/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "voluntario",
+        "Type": "API_PROYECTO_ONG.Models.Voluntario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.VoluntariosController",
+    "Method": "DeleteVoluntario",
+    "RelativePath": "api/Voluntarios/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_PROYECTO_ONG.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[API_PROYECTO_ONG.WeatherForecast, API_PROYECTO_ONG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
