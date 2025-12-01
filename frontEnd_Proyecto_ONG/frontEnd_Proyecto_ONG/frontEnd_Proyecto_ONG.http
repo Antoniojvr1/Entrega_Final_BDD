@@ -1,0 +1,6 @@
+@frontEnd_Proyecto_ONG_HostAddress = http://localhost:5228
+
+GET {{frontEnd_Proyecto_ONG_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

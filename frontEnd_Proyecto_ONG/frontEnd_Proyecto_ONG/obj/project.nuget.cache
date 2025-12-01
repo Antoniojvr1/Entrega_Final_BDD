@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7YXBBvz8AhE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USUARIO\\OneDrive\\Desktop\\Clases3PAC\\BasesDeDatossegunda\\unidad_2\\Avance2_Proyecto\\FrontEnd_proyecto_BDD1S\\frontEnd_Proyecto_ONG\\frontEnd_Proyecto_ONG\\frontEnd_Proyecto_ONG.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0\\microsoft.aspnetcore.openapi.10.0.0.nupkg.sha512",
+    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
