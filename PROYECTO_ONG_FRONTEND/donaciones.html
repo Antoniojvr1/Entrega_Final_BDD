@@ -1,0 +1,52 @@
+<!-- donaciones.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Donaciones - ONG System</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<div id="navbar"></div>
+<div id="sidebar"></div>
+
+<div class="content">
+    <h1>Donaciones</h1>
+    <button class="btn" onclick="abrirModal()">+ Nueva Donación</button>
+
+    <div class="tabla-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Donante</th>
+                    <th>Monto</th>
+                    <th>Detalle</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-donaciones"></tbody>
+        </table>
+    </div>
+</div>
+
+<div class="modal" id="modal-donacion">
+    <div class="modal-content">
+        <span class="close" onclick="cerrarModal()">&times;</span>
+        <h2>Registrar Donación</h2>
+        <input type="text" id="donante-nombre" placeholder="Nombre del donante">
+        <input type="number" id="donacion-monto" placeholder="Monto">
+        <input type="text" id="donacion-detalle" placeholder="Detalle">
+        <button class="btn" onclick="guardarDonacion()">Guardar</button>
+    </div>
+</div>
+
+<div id="footer"></div>
+<script src="js/util.js"></script>
+<script src="js/donaciones.js"></script>
+<script>
+    loadComponent("navbar","components/navbar.html");
+    loadComponent("sidebar","components/sidebar.html");
+    loadComponent("footer","components/footer.html");
+</script>
+</body>
+</html>

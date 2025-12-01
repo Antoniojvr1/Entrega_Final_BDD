@@ -1,0 +1,52 @@
+<!-- contactos.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contactos - ONG System</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<div id="navbar"></div>
+<div id="sidebar"></div>
+
+<div class="content">
+    <h1>Contactos</h1>
+    <button class="btn" onclick="abrirModal()">+ Nuevo Contacto</button>
+
+    <div class="tabla-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Cargo</th>
+                    <th>Teléfono</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-contactos"></tbody>
+        </table>
+    </div>
+</div>
+
+<div class="modal" id="modal-contacto">
+    <div class="modal-content">
+        <span class="close" onclick="cerrarModal()">&times;</span>
+        <h2>Registrar Contacto</h2>
+        <input type="text" id="contacto-nombre" placeholder="Nombre completo">
+        <input type="text" id="contacto-cargo" placeholder="Cargo">
+        <input type="text" id="contacto-telefono" placeholder="Teléfono">
+        <button class="btn" onclick="guardarContacto()">Guardar</button>
+    </div>
+</div>
+
+<div id="footer"></div>
+<script src="js/util.js"></script>
+<script src="js/contactos.js"></script>
+<script>
+    loadComponent("navbar","components/navbar.html");
+    loadComponent("sidebar","components/sidebar.html");
+    loadComponent("footer","components/footer.html");
+</script>
+</body>
+</html>

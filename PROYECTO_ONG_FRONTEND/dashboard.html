@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - ONG System</title>
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <style>
+        .cards-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 260px;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        }
+
+        .card h2 {
+            margin: 0;
+            font-size: 18px;
+            color: #555;
+        }
+
+        .card p {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* gráfica falsa */
+        .chart {
+            width: 100%;
+            height: 260px;
+            background: linear-gradient(to top, #e0e0e0, #ffffff);
+            border-radius: 10px;
+            margin-top: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .bar {
+            width: 40px;
+            background: #0077cc;
+            position: absolute;
+            bottom: 0;
+            border-radius: 6px 6px 0 0;
+        }
+
+        .bar:nth-child(1) { left: 40px; height: 40%; }
+        .bar:nth-child(2) { left: 120px; height: 65%; }
+        .bar:nth-child(3) { left: 200px; height: 50%; }
+        .bar:nth-child(4) { left: 280px; height: 80%; }
+        .bar:nth-child(5) { left: 360px; height: 55%; }
+    </style>
+
+</head>
+<body>
+
+    <div id="navbar"></div>
+    <div id="sidebar"></div>
+
+    <div class="content">
+
+        <h1>Dashboard General</h1>
+        <p>Resumen del sistema de ONG</p>
+
+        <div class="cards-container">
+
+            <div class="card">
+                <h2>Personas Registradas</h2>
+                <p id="total-personas">124</p>
+            </div>
+
+            <div class="card">
+                <h2>Proyectos Activos</h2>
+                <p id="total-proyectos">12</p>
+            </div>
+
+            <div class="card">
+                <h2>Actividades</h2>
+                <p id="total-actividades">47</p>
+            </div>
+
+            <div class="card">
+                <h2>Voluntarios</h2>
+                <p id="total-voluntarios">89</p>
+            </div>
+
+            <div class="card">
+                <h2>Donaciones Recientes</h2>
+                <p id="total-donaciones">$3,200</p>
+            </div>
+
+        </div>
+
+        <h2 style="margin-top: 40px;">Actividad General del Mes</h2>
+
+        <div class="chart">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+    </div>
+
+    <div id="footer"></div>
+
+    <script src="js/util.js"></script>
+    <script>
+        loadComponent("navbar", "components/navbar.html");
+        loadComponent("sidebar", "components/sidebar.html");
+        loadComponent("footer", "components/footer.html");
+    </script>
+
+</body>
+</html>

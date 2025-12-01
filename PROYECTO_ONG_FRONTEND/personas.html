@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Personas - ONG System</title>
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <style>
+        .content h1 { display: inline-block; }
+        .btn { background:#0077cc; color:white; padding:8px 15px; border:none; border-radius:6px; cursor:pointer; margin-left:15px; }
+        .tabla-container { margin-top:20px; background:white; padding:20px; border-radius:12px; box-shadow:0 2px 6px rgba(0,0,0,0.15);}
+        table { width:100%; border-collapse:collapse; }
+        th, td { padding:10px; border-bottom:1px solid #ddd; }
+        th { background:#0077cc; color:white; }
+        .modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); justify-content:center; align-items:center; }
+        .modal-content { background:white; padding:20px; border-radius:12px; width:400px; position:relative; }
+        .close { position:absolute; top:10px; right:15px; cursor:pointer; font-weight:bold; font-size:18px; }
+        input { width:100%; padding:8px; margin:8px 0; border-radius:6px; border:1px solid #ccc; }
+    </style>
+</head>
+<body>
+<div id="navbar"></div>
+<div id="sidebar"></div>
+
+<div class="content">
+    <h1>Personas</h1>
+    <button class="btn" onclick="abrirModal()">+ Nuevo</button>
+
+    <div class="tabla-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Identidad</th>
+                    <th>Teléfono</th>
+                    <th>Correo</th>
+                    <th>Opciones</th>
+                </tr>
+            </thead>
+            <tbody id="tabla-personas"></tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal" id="modal-persona">
+    <div class="modal-content">
+        <span class="close" onclick="cerrarModal()">&times;</span>
+        <h2>Registrar Persona</h2>
+        <input type="text" id="nombre" placeholder="Nombre completo">
+        <input type="text" id="identidad" placeholder="N° Identidad">
+        <input type="text" id="telefono" placeholder="Teléfono">
+        <input type="email" id="correo" placeholder="Correo electrónico">
+        <button class="btn" onclick="guardarPersona()">Guardar</button>
+    </div>
+</div>
+
+<div id="footer"></div>
+<script src="js/util.js"></script>
+<script src="js/personas.js"></script>
+<script>
+    loadComponent("navbar","components/navbar.html");
+    loadComponent("sidebar","components/sidebar.html");
+    loadComponent("footer","components/footer.html");
+</script>
+</body>
+</html>

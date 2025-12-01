@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel ONG</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Iconos Lucide -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body class="bg-slate-900 text-white flex">
+
+  <!-- Sidebar -->
+  <aside class="w-64 bg-slate-800/60 p-6 border-r border-purple-500/20 h-screen">
+    <h1 class="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+      ONG Panel
+    </h1>
+
+    <nav class="space-y-3">
+      <button class="nav-btn flex items-center gap-3 w-full p-3 rounded-xl hover:bg-purple-500/20" data-section="personas">
+        <i data-lucide="users"></i> Personas
+      </button>
+
+      <button class="nav-btn flex items-center gap-3 w-full p-3 rounded-xl hover:bg-purple-500/20" data-section="eventos">
+        <i data-lucide="calendar-days"></i> Eventos
+      </button>
+
+      <button class="nav-btn flex items-center gap-3 w-full p-3 rounded-xl hover:bg-purple-500/20" data-section="contactos">
+        <i data-lucide="phone"></i> Contactos
+      </button>
+    </nav>
+  </aside>
+
+  <!-- Main -->
+  <main class="flex-1 p-8 overflow-auto">
+
+    <h2 id="section-title" class="text-4xl font-bold mb-6">Personas</h2>
+
+    <!-- Stats Cards -->
+    <div id="stats-cards" class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6"></div>
+
+    <!-- Buscador + Botón agregar -->
+    <div class="flex justify-end items-center gap-3 mb-4">
+
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Buscar..."
+        class="w-48 p-2 rounded-xl bg-slate-800/50 border border-purple-500/20 text-white focus:outline-none text-sm"
+      >
+
+      <button id="btn-agregar"
+        class="px-4 py-2 bg-purple-500/70 rounded-xl hover:bg-purple-500/90 transition-all flex items-center gap-2 text-sm">
+        <i data-lucide="plus"></i> Agregar Nuevo
+      </button>
+
+    </div>
+
+    <!-- Tabla -->
+    <div id="table-container" class="overflow-x-auto bg-slate-800/50 rounded-xl border border-purple-500/20 p-4"></div>
+
+  </main>
+
+  <!-- Script principal -->
+  <script>
+    // Datos simulados (Mock data)
+    const mockData = {
+      personas: [
+        { id: 1, nombre: "Juan Pérez", email: "juan@mail.com", edad: 28 },
+        { id: 2, nombre: "Ana López", email: "ana@mail.com", edad: 34 },
+        { id: 3, nombre: "Carlos Gómez", email: "carlos@mail.com", edad: 22 }
+      ],
+
+      eventos: [
+        { id: 1, titulo: "Recaudación", fecha: "2025-01-15", lugar: "Comayagua" },
+        { id: 2, titulo: "Campaña Médica", fecha: "2025-02-10", lugar: "Siguatepeque" }
+      ],
+
+      contactos: [
+        { id: 1, nombre: "María Torres", telefono: "9999-8888", tipo: "Donante" },
+        { id: 2, nombre: "Luis Herrera", telefono: "8888-7777", tipo: "Voluntario" }
+      ]
+    };
+
+    const navBtns = document.querySelectorAll(".nav-btn");
+    const tableContainer = document.getElementById("table-container");
+    const sectionTitle = document.getElementById("section-title");
+    const searchInput = document.getElementById("search-input");
+
+    let activeSection = "personas";
+
+    function renderStatsCards(section) {
+      const stats = {
+        personas: ["3 Personas registradas", "Edad promedio: 28", "Activos: 3"],
+        eventos: ["2 Eventos", "Próximo: 2025-01-15", "Ciudades: 2"],
+        contactos: ["2 Contactos", "Donantes: 1", "Voluntarios: 1"]
+      };
+
+      const cardData = stats[section];
+      const container = document.getElementById("stats-cards");
+
+      container.innerHTML = cardData
+        .map(text => `
+          <div class="p-4 bg-slate-800/70 rounded-xl border border-purple-500/20 shadow">
+            <p class="text-lg text-purple-300">${text}</p>
+          </div>
+        `)
+        .join("");
+    }
+
+    function renderTable(section, filter = "") {
+      const data = mockData[section];
+      const filtered = data.filter(row =>
+        Object.values(row).some(val =>
+          val.toString().toLowerCase().includes(filter.toLowerCase())
+        )
+      );
+
+      sectionTitle.textContent = section.charAt(0).toUpperCase() + section.slice(1);
+      renderStatsCards(section);
+
+      const headers = Object.keys(data[0]);
+
+      let html = `<table class="w-full text-left">`;
+
+      html += `<thead><tr class="border-b border-purple-500/30">`;
+      headers.forEach(h => {
+        html += `<th class="py-2 px-4 capitalize text-gray-300">${h}</th>`;
+      });
+      html += `<th class="py-2 px-4 text-gray-300">Acciones</th>`;
+      html += `</tr></thead><tbody>`;
+
+      filtered.forEach(row => {
+        html += `<tr class="border-b border-purple-500/20 hover:bg-purple-500/10">`;
+
+        headers.forEach(h => {
+          html += `<td class="py-2 px-4 text-gray-200">${row[h]}</td>`;
+        });
+
+        html += `
+          <td class="py-2 px-4 text-right flex gap-2 justify-end">
+            <button class="px-2 py-1 bg-blue-500/20 rounded flex items-center gap-1">
+              <i data-lucide="edit"></i> Editar
+            </button>
+            <button class="px-2 py-1 bg-red-500/20 rounded flex items-center gap-1">
+              <i data-lucide="trash-2"></i> Eliminar
+            </button>
+          </td>
+        `;
+        html += `</tr>`;
+      });
+
+      html += `</tbody></table>`;
+      tableContainer.innerHTML = html;
+
+      // Activar iconos después de generar contenido dinámico
+      lucide.createIcons();
+    }
+
+    navBtns.forEach(btn => {
+      btn.addEventListener("click", () => {
+        navBtns.forEach(b => b.classList.remove("bg-purple-500/20"));
+        btn.classList.add("bg-purple-500/20");
+
+        activeSection = btn.dataset.section;
+        renderTable(activeSection, searchInput.value);  
+      });
+    });
+
+    searchInput.addEventListener("input", () => {
+      renderTable(activeSection, searchInput.value);
+    });
+
+    // Inicialización
+    window.addEventListener("DOMContentLoaded", () => {
+      renderTable("personas");
+      lucide.createIcons();
+    });
+  </script>
+
+</body>
+</html>
